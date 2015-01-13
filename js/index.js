@@ -22,6 +22,6 @@ function interpret() {
   sayIt(document.getElementById('typer').value, 'en-US');
 }
 
-sayIt('Hello! I can say anything you want. Type in the textbox and click the button to try. This is coded by Alexander Lin', 'en-US');
+sayIt('Hello! I can say anything you want. Type in the textbox and click the button to try. Say something to stop this recording. 'en-US');
 attach('activate', 'click', interpret);
        
