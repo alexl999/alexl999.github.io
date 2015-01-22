@@ -242,7 +242,6 @@ footer.post-footer a:hover {
   text-decoration: none;
   color: white;
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
-  background-color: rgba(0, 0, 0, 0.3);
   font-size: 12px;
   padding: 1em;
   display: none;
@@ -250,7 +249,6 @@ footer.post-footer a:hover {
 
 .go-top:hover {
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
-  background-color: rgba(0, 0, 0, 0.6);
    text-decoration: none;
    color: white;
 
