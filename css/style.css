@@ -237,8 +237,8 @@ footer.post-footer a:hover {
 
 .go-top {
   position: fixed;
-  bottom: 3em;
-  right: 0em;
+  bottom: 48px;
+  right: 48px;
   text-decoration: none;
   color: white;
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
