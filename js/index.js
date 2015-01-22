@@ -1,27 +1,17 @@
-
-
-function sayIt(query, language) {
-  var q = new SpeechSynthesisUtterance(query);
-  q.lang = language;
-  q.rate = 1.2;
-  speechSynthesis.speak(q);
-}
-
-function attach(elementId, event, functionName) {
-  var element = document.getElementById(elementId);
-  if (element.addEventListener) {
-    element.addEventListener(event, functionName, false);
-  } else if (element.attachEvent) {
-    element.attachEvent('on' + event, functionName);
-  } else {
-    element['on' + event] = functionName;
-  }
-}
-
-function interpret() {
-  sayIt(document.getElementById('typer').value, 'en-US');
-}
-
-sayIt('Hello! I can say anything you want. Type in the textbox and click the button to try. This is coded by Alexander Lin', 'en-US');
-attach('activate', 'click', interpret);
-       
+$(document).ready(function() {
+      // Show or hide the sticky footer button
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+        } else {
+          $('.go-top').fadeOut(0);
+        }
+      });
+      
+      // Animate the scroll to top
+      $('.go-top').click(function(event) {
+        event.preventDefault();
+        
+        $('html, body').animate({scrollTop: 0}, 300);
+      })
+    });

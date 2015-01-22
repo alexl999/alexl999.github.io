@@ -195,3 +195,25 @@ div.text h3{
 
 div.quote blockquote{font-family:Georgia,serif;font-size:18px;padding-bottom:20px;position:relative;color:#999}div.video iframe{width:549px;height:309px}footer.post-footer{border-top:1px solid #ececec;padding:16px 0}footer.post-footer a,footer.post-footer a:visited{color:#ccc;font-size:14px;font-weight:normal;padding:0 32px}footer.post-footer a:hover{color:#999;text-decoration:none}
 
+
+
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+   text-decoration: none;
+   color: white;
+
+
+
+}
