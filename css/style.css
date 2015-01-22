@@ -237,7 +237,7 @@ footer.post-footer a:hover {
 
 .go-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 1px;
   right: 100px;
   text-decoration: none;
   color: white;
