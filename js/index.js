@@ -2,9 +2,9 @@ $(document).ready(function() {
       // Show or hide the sticky footer button
       $(window).scroll(function() {
         if ($(this).scrollTop() > 200) {
-          $('.go-top').fadeIn(200);
+          $('.go-top').fadeIn(500);
         } else {
-          $('.go-top').fadeOut(0);
+          $('.go-top').fadeOut(500);
         }
       });
       
