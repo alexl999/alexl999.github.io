@@ -242,7 +242,6 @@ footer.post-footer a:hover {
   position: fixed;
   bottom: 48px;
   right: 48px;
-  text-decoration: none;
   color: white;
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
   font-size: 12px;
@@ -252,8 +251,16 @@ footer.post-footer a:hover {
 
 .go-top:hover {
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
-   text-decoration: none;
-   color: white;
+
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(001.png) no-repeat;
+background-size: cover;
+}
 
 
 
