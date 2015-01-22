@@ -236,8 +236,12 @@ footer.post-footer a:hover {
 
 
 .go-top {
+  width: 48px;
+  height: 48px;
+  text-indent: -9999px;
   position: fixed;
-
+  bottom: 48px;
+  right: 48px;
   text-decoration: none;
   color: white;
   background: url(https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-48.png) 0 0 no-repeat;
